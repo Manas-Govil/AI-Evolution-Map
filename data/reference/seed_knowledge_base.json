@@ -1,0 +1,884 @@
+{
+  "sources": [
+    {
+      "id": "source-turing-1950",
+      "title": "Computing Machinery and Intelligence",
+      "authors": [
+        "A. M. Turing"
+      ],
+      "publication_date": "1950-10",
+      "date_precision": "month",
+      "publisher": "Mind (Oxford University Press)",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1093/mind/LIX.236.433",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-mccarthy-1955-proposal",
+      "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+      "authors": [
+        "J. McCarthy",
+        "M. L. Minsky",
+        "N. Rochester",
+        "C. E. Shannon"
+      ],
+      "publication_date": "1955-08-31",
+      "date_precision": "day",
+      "publisher": "Dartmouth College",
+      "source_type": "original_research",
+      "url": "http://raysolomonoff.com/dartmouth/box/dart564src.pdf",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-rosenblatt-1958",
+      "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+      "authors": [
+        "Frank Rosenblatt"
+      ],
+      "publication_date": "1958",
+      "date_precision": "year",
+      "publisher": "Psychological Review",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1037/h0042519",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-rumelhart-1986-backprop",
+      "title": "Learning representations by back-propagating errors",
+      "authors": [
+        "David E. Rumelhart",
+        "Geoffrey E. Hinton",
+        "Ronald J. Williams"
+      ],
+      "publication_date": "1986-10-09",
+      "date_precision": "day",
+      "publisher": "Nature",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1038/323533a0",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-lecun-1998-lenet",
+      "title": "Gradient-based learning applied to document recognition",
+      "authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio",
+        "Patrick Haffner"
+      ],
+      "publication_date": "1998-11",
+      "date_precision": "month",
+      "publisher": "Proceedings of the IEEE",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1109/5.726791",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-krizhevsky-2012-alexnet",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "authors": [
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Geoffrey E. Hinton"
+      ],
+      "publication_date": "2012-12",
+      "date_precision": "month",
+      "publisher": "NeurIPS",
+      "source_type": "original_research",
+      "url": "https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-vaswani-2017-attention",
+      "title": "Attention Is All You Need",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "publication_date": "2017-06-12",
+      "date_precision": "day",
+      "publisher": "NeurIPS / arXiv",
+      "source_type": "preprint",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-devlin-2018-bert",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "authors": [
+        "Jacob Devlin",
+        "Ming-Wei Chang",
+        "Kenton Lee",
+        "Kristina Toutanova"
+      ],
+      "publication_date": "2018-10-11",
+      "date_precision": "day",
+      "publisher": "NAACL / arXiv",
+      "source_type": "preprint",
+      "url": "https://arxiv.org/abs/1810.04805",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-brown-2020-gpt3",
+      "title": "Language Models are Few-Shot Learners",
+      "authors": [
+        "Tom B. Brown",
+        "Benjamin Mann",
+        "Nick Ryder",
+        "Melanie Subbiah",
+        "Jared Kaplan",
+        "Prafulla Dhariwal",
+        "Arvind Neelakantan",
+        "Pranav Shyam"
+      ],
+      "publication_date": "2020-05-28",
+      "date_precision": "day",
+      "publisher": "NeurIPS / arXiv",
+      "source_type": "preprint",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-stanford-ai-index-2024",
+      "title": "Artificial Intelligence Index Report 2024",
+      "authors": [
+        "Nestor Maslej",
+        "Loredana Fattorini",
+        "Raymond Perrault",
+        "Vanessa Parli",
+        "Anka Reuel",
+        "Erik Brynjolfsson"
+      ],
+      "publication_date": "2024-04",
+      "date_precision": "month",
+      "publisher": "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+      "source_type": "institutional_report",
+      "url": "https://aiindex.stanford.edu/report/",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-rombach-2022-latent-diffusion",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "authors": [
+        "Robin Rombach",
+        "Andreas Blattmann",
+        "Dominik Lorenz",
+        "Patrick Esser",
+        "Bjorn Ommer"
+      ],
+      "publication_date": "2021-12-20",
+      "date_precision": "day",
+      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2022)",
+      "source_type": "original_research",
+      "url": "https://arxiv.org/abs/2112.10752",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-openai-2022-chatgpt",
+      "title": "Introducing ChatGPT: Optimizing Language Models for Dialogue",
+      "authors": [
+        "OpenAI"
+      ],
+      "publication_date": "2022-11-30",
+      "date_precision": "day",
+      "publisher": "OpenAI Technical Blog",
+      "source_type": "official_documentation",
+      "url": "https://openai.com/index/chatgpt/",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-openai-2023-gpt4",
+      "title": "GPT-4 Technical Report",
+      "authors": [
+        "OpenAI"
+      ],
+      "publication_date": "2023-03-15",
+      "date_precision": "day",
+      "publisher": "arXiv / OpenAI",
+      "source_type": "original_research",
+      "url": "https://arxiv.org/abs/2303.08774",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-meta-2023-llama2",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "authors": [
+        "Hugo Touvron",
+        "Louis Martin",
+        "Kevin Stone",
+        "Peter Albert",
+        "Meta AI"
+      ],
+      "publication_date": "2023-07-18",
+      "date_precision": "day",
+      "publisher": "arXiv / Meta AI",
+      "source_type": "original_research",
+      "url": "https://arxiv.org/abs/2307.09288",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-iso-2023-42001",
+      "title": "ISO/IEC 42001:2023 - Artificial Intelligence Management System",
+      "authors": [
+        "International Organization for Standardization",
+        "International Electrotechnical Commission"
+      ],
+      "publication_date": "2023-12-18",
+      "date_precision": "day",
+      "publisher": "ISO/IEC",
+      "source_type": "institutional_report",
+      "url": "https://www.iso.org/standard/81230.html",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-google-2024-alphafold3",
+      "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "authors": [
+        "Josh Abramson",
+        "Jonas Adler",
+        "Jack Dunger",
+        "John Jumper",
+        "Demis Hassabis"
+      ],
+      "publication_date": "2024-05-08",
+      "date_precision": "day",
+      "publisher": "Nature 630, 493-500",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1038/s41586-024-07487-w",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-openai-2024-gpt4o",
+      "title": "Hello GPT-4o: Omni Multimodal Model Across Audio, Vision, and Text",
+      "authors": [
+        "OpenAI"
+      ],
+      "publication_date": "2024-05-13",
+      "date_precision": "day",
+      "publisher": "OpenAI Announcements",
+      "source_type": "official_documentation",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-eu-2024-ai-act",
+      "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+      "authors": [
+        "European Parliament",
+        "Council of the European Union"
+      ],
+      "publication_date": "2024-07-12",
+      "date_precision": "day",
+      "publisher": "Official Journal of the European Union",
+      "source_type": "institutional_report",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-openai-2024-o1",
+      "title": "Learning to Reason with LLMs: Introducing OpenAI o1 Preview",
+      "authors": [
+        "OpenAI"
+      ],
+      "publication_date": "2024-09-12",
+      "date_precision": "day",
+      "publisher": "OpenAI Research",
+      "source_type": "official_documentation",
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-deepseek-2025-r1",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "authors": [
+        "DeepSeek-AI",
+        "Daya Guo",
+        "Dejian Yang",
+        "Haowei Zhang",
+        "Chaoqing Jia"
+      ],
+      "publication_date": "2025-01-22",
+      "date_precision": "day",
+      "publisher": "arXiv:2501.12948",
+      "source_type": "original_research",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-paris-2025-ai-summit",
+      "title": "Statement on Inclusive and Sustainable Artificial Intelligence for People and the Planet",
+      "authors": [
+        "Paris AI Action Summit Co-Chairs",
+        "Government of France",
+        "Government of India"
+      ],
+      "publication_date": "2025-02-11",
+      "date_precision": "day",
+      "publisher": "AI Action Summit Paris",
+      "source_type": "institutional_report",
+      "url": "https://www.elysee.fr/en/",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-international-ai-safety-report-2025",
+      "title": "International Scientific Report on the Safety of Advanced AI",
+      "authors": [
+        "Yoshua Bengio",
+        "International AI Safety Expert Panel"
+      ],
+      "publication_date": "2025-01-29",
+      "date_precision": "day",
+      "publisher": "UK Department for Science, Innovation and Technology",
+      "source_type": "institutional_report",
+      "url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-turing-test",
+      "name": "Turing Test (Imitation Game)",
+      "category": "theory",
+      "summary": "Operational test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human.",
+      "introduced_date": "1950-10",
+      "introduced_date_precision": "month",
+      "source_ids": [
+        "source-turing-1950"
+      ]
+    },
+    {
+      "id": "concept-artificial-intelligence",
+      "name": "Artificial Intelligence",
+      "category": "paradigm",
+      "summary": "The field of computer science dedicated to creating systems capable of performing tasks requiring human intelligence.",
+      "introduced_date": "1955-08-31",
+      "introduced_date_precision": "day",
+      "source_ids": [
+        "source-mccarthy-1955-proposal"
+      ]
+    },
+    {
+      "id": "concept-perceptron",
+      "name": "Perceptron",
+      "category": "algorithm",
+      "summary": "Early artificial neuron algorithm for binary classification utilizing linear threshold units.",
+      "introduced_date": "1958",
+      "introduced_date_precision": "year",
+      "source_ids": [
+        "source-rosenblatt-1958"
+      ]
+    },
+    {
+      "id": "concept-backpropagation",
+      "name": "Backpropagation",
+      "category": "algorithm",
+      "summary": "Algorithm for efficiently computing gradient of loss function with respect to weights in multi-layer neural networks.",
+      "introduced_date": "1986-10-09",
+      "introduced_date_precision": "day",
+      "source_ids": [
+        "source-rumelhart-1986-backprop"
+      ]
+    },
+    {
+      "id": "concept-convolutional-neural-network",
+      "name": "Convolutional Neural Network (CNN)",
+      "category": "architecture",
+      "summary": "Feedforward neural architecture using convolution filters and spatial pooling, specialized for grid-like data such as images.",
+      "introduced_date": "1998-11",
+      "introduced_date_precision": "month",
+      "source_ids": [
+        "source-lecun-1998-lenet"
+      ]
+    },
+    {
+      "id": "concept-deep-learning",
+      "name": "Deep Learning",
+      "category": "paradigm",
+      "summary": "Class of machine learning algorithms that use multiple layers of representation to extract higher-level features from raw input.",
+      "introduced_date": "2012-12",
+      "introduced_date_precision": "month",
+      "source_ids": [
+        "source-krizhevsky-2012-alexnet"
+      ]
+    },
+    {
+      "id": "concept-self-attention",
+      "name": "Self-Attention Mechanism",
+      "category": "algorithm",
+      "summary": "Mechanism relating different positions of a single sequence to compute a contextual representation of the sequence.",
+      "introduced_date": "2017-06-12",
+      "introduced_date_precision": "day",
+      "source_ids": [
+        "source-vaswani-2017-attention"
+      ]
+    },
+    {
+      "id": "concept-transformer",
+      "name": "Transformer Architecture",
+      "category": "architecture",
+      "summary": "Sequence-to-sequence model relying entirely on self-attention without recurrence or convolutions.",
+      "introduced_date": "2017-06-12",
+      "introduced_date_precision": "day",
+      "source_ids": [
+        "source-vaswani-2017-attention"
+      ]
+    },
+    {
+      "id": "concept-bidirectional-transformers",
+      "name": "Bidirectional Masked Language Modeling",
+      "category": "methodology",
+      "summary": "Pre-training objective conditioning on both left and right context across all transformer layers simultaneously.",
+      "introduced_date": "2018-10-11",
+      "introduced_date_precision": "day",
+      "source_ids": [
+        "source-devlin-2018-bert"
+      ]
+    },
+    {
+      "id": "concept-autoregressive-llm",
+      "name": "Autoregressive Large Language Models",
+      "category": "architecture",
+      "summary": "Decoder-only generative transformer models scaled to billions of parameters demonstrating emergent in-context few-shot capabilities.",
+      "introduced_date": "2020-05-28",
+      "introduced_date_precision": "day",
+      "source_ids": [
+        "source-brown-2020-gpt3"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-ai-introduces-perceptron",
+      "source_concept_id": "concept-artificial-intelligence",
+      "target_concept_id": "concept-perceptron",
+      "relationship_type": "introduced",
+      "evidence_source_ids": [
+        "source-rosenblatt-1958"
+      ],
+      "description": "Perceptron developed as foundational algorithmic attempt toward realizing the artificial intelligence agenda."
+    },
+    {
+      "id": "rel-perceptron-extended-by-backprop",
+      "source_concept_id": "concept-perceptron",
+      "target_concept_id": "concept-backpropagation",
+      "relationship_type": "influenced",
+      "evidence_source_ids": [
+        "source-rumelhart-1986-backprop"
+      ],
+      "description": "The representational limitations of single-layer perceptrons, demonstrated by Minsky and Papert, directly influenced the development of multi-layer learning algorithms, leading to the popularization of backpropagation by Rumelhart, Hinton, and Williams."
+    },
+    {
+      "id": "rel-backprop-used-by-cnn",
+      "source_concept_id": "concept-convolutional-neural-network",
+      "target_concept_id": "concept-backpropagation",
+      "relationship_type": "uses",
+      "evidence_source_ids": [
+        "source-lecun-1998-lenet"
+      ],
+      "description": "Convolutional neural networks (such as LeNet) use backpropagation and gradient-based learning to train shared spatial convolution kernels directly from input pixels."
+    },
+    {
+      "id": "rel-cnn-ignited-deep-learning",
+      "source_concept_id": "concept-convolutional-neural-network",
+      "target_concept_id": "concept-deep-learning",
+      "relationship_type": "influenced",
+      "evidence_source_ids": [
+        "source-krizhevsky-2012-alexnet"
+      ],
+      "description": "GPU-accelerated deep convolutional network (AlexNet) victory at ImageNet 2012 ignited modern deep learning renaissance."
+    },
+    {
+      "id": "rel-self-attention-introduced-in-transformer",
+      "source_concept_id": "concept-self-attention",
+      "target_concept_id": "concept-transformer",
+      "relationship_type": "introduced",
+      "evidence_source_ids": [
+        "source-vaswani-2017-attention"
+      ],
+      "description": "Transformer architecture was introduced by replacing recurrent computation entirely with multi-head self-attention."
+    },
+    {
+      "id": "rel-transformer-extended-by-bert",
+      "source_concept_id": "concept-bidirectional-transformers",
+      "target_concept_id": "concept-transformer",
+      "relationship_type": "extends",
+      "evidence_source_ids": [
+        "source-devlin-2018-bert"
+      ],
+      "description": "Bidirectional language models such as BERT extend the Transformer encoder architecture with masked language pre-training to learn context from both left and right directions simultaneously."
+    },
+    {
+      "id": "rel-transformer-successor-gpt",
+      "source_concept_id": "concept-autoregressive-llm",
+      "target_concept_id": "concept-transformer",
+      "relationship_type": "uses",
+      "evidence_source_ids": [
+        "source-brown-2020-gpt3"
+      ],
+      "description": "Autoregressive large language models (such as GPT-3) use the causal decoder variant of the Transformer architecture, scaled to massive parameter and token counts."
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone-turing-test-1950",
+      "title": "Publication of Computing Machinery and Intelligence (Turing Test)",
+      "date_start": "1950-10",
+      "date_precision": "month",
+      "era": "foundations",
+      "description": "Alan Turing proposed the Imitation Game as an operational benchmark for machine intelligence, analyzing philosophical objections and machine learning foundations.",
+      "source_ids": [
+        "source-turing-1950"
+      ],
+      "concept_ids": [
+        "concept-turing-test"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-dartmouth-workshop-1956",
+      "title": "Dartmouth Summer Research Project on Artificial Intelligence",
+      "date_start": "1956",
+      "date_precision": "year",
+      "era": "birth",
+      "description": "Conceived by McCarthy, Minsky, Rochester, and Shannon, this workshop coined the term 'Artificial Intelligence' and established AI as an autonomous discipline.",
+      "source_ids": [
+        "source-mccarthy-1955-proposal"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-backpropagation-rediscovery-1986",
+      "title": "Popularization of Multi-Layer Backpropagation by Rumelhart, Hinton, and Williams",
+      "date_start": "1986-10-09",
+      "date_precision": "day",
+      "era": "expert_systems",
+      "description": "Demonstrated that backpropagation can discover useful internal representations in hidden layers of neural networks, reviving connectionism.",
+      "source_ids": [
+        "source-rumelhart-1986-backprop"
+      ],
+      "concept_ids": [
+        "concept-backpropagation"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-lenet-5-1998",
+      "title": "Release of LeNet-5 for Document Recognition",
+      "date_start": "1998-11",
+      "date_precision": "month",
+      "era": "revival",
+      "description": "Yann LeCun and colleagues demonstrated practical commercial application of gradient-trained convolutional networks on postal check digits.",
+      "source_ids": [
+        "source-lecun-1998-lenet"
+      ],
+      "concept_ids": [
+        "concept-convolutional-neural-network"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-alexnet-imagenet-2012",
+      "title": "AlexNet Dominates ImageNet Competition",
+      "date_start": "2012-12",
+      "date_precision": "month",
+      "era": "deep_learning",
+      "description": "AlexNet won the ImageNet Large Scale Visual Recognition Challenge with top-5 error rate of 15.3%, dropping previous error by over 10 percentage points.",
+      "source_ids": [
+        "source-krizhevsky-2012-alexnet"
+      ],
+      "concept_ids": [
+        "concept-deep-learning",
+        "concept-convolutional-neural-network"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-transformer-attention-2017",
+      "title": "Publication of Attention Is All You Need (Transformer)",
+      "date_start": "2017-06-12",
+      "date_precision": "day",
+      "era": "transformer_era",
+      "description": "Google researchers introduced the Transformer model, replacing recurrent networks with multi-head self-attention and unlocking massive sequence parallelization.",
+      "source_ids": [
+        "source-vaswani-2017-attention"
+      ],
+      "concept_ids": [
+        "concept-transformer",
+        "concept-self-attention"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-bert-release-2018",
+      "title": "Google Releases BERT",
+      "date_start": "2018-10-11",
+      "date_precision": "day",
+      "era": "transformer_era",
+      "description": "Introduced bidirectional pre-training for Transformers, establishing new state-of-the-art results across 11 NLP tasks simultaneously.",
+      "source_ids": [
+        "source-devlin-2018-bert"
+      ],
+      "concept_ids": [
+        "concept-bidirectional-transformers",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-gpt3-release-2020",
+      "title": "OpenAI Releases GPT-3 (Few-Shot Learners)",
+      "date_start": "2020-05-28",
+      "date_precision": "day",
+      "era": "transformer_era",
+      "description": "Demonstrated that scaling autoregressive transformers to 175B parameters enables strong task performance without fine-tuning, via prompt-based in-context learning.",
+      "source_ids": [
+        "source-brown-2020-gpt3"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-latent-diffusion-2021",
+      "title": "Publication of Latent Diffusion Models (Foundation for Stable Diffusion)",
+      "date_start": "2021-12-20",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Robin Rombach and collaborators introduced latent diffusion models, moving diffusion training to compressed latent spaces and unlocking scalable high-resolution generative image synthesis.",
+      "source_ids": [
+        "source-rombach-2022-latent-diffusion"
+      ],
+      "concept_ids": [
+        "concept-deep-learning"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-chatgpt-release-2022",
+      "title": "OpenAI Releases ChatGPT (Democratization of Conversational AI)",
+      "date_start": "2022-11-30",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "OpenAI launched ChatGPT based on GPT-3.5 with reinforcement learning from human feedback (RLHF), reaching 100M monthly active users within two months and initiating widespread public adoption.",
+      "source_ids": [
+        "source-openai-2022-chatgpt"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-gpt4-multimodal-2023",
+      "title": "OpenAI Launches GPT-4 (Multimodal Foundation Model Benchmark)",
+      "date_start": "2023-03-14",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Demonstrated human-level performance on standardized benchmarks including top-10th percentile bar exam scoring, introducing visual understanding and enhanced reliability.",
+      "source_ids": [
+        "source-openai-2023-gpt4"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-llama2-open-weights-2023",
+      "title": "Meta Releases Llama 2 (Open-Weight Foundation Model Ecosystem)",
+      "date_start": "2023-07-18",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Meta released Llama 2 with permissive commercial licensing for research and commercial deployment, catalyzing global open-source model adaptation and on-device optimization.",
+      "source_ids": [
+        "source-meta-2023-llama2"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-iso-42001-standard-2023",
+      "title": "Publication of ISO/IEC 42001 (First Global Standard for AI Management Systems)",
+      "date_start": "2023-12-18",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "The International Organization for Standardization published ISO/IEC 42001, defining international certifiable governance standards for responsible and accountable enterprise AI systems.",
+      "source_ids": [
+        "source-iso-2023-42001"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-alphafold-3-2024",
+      "title": "Google DeepMind & Isomorphic Labs Unveil AlphaFold 3 in Nature",
+      "date_start": "2024-05-08",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Introduced diffusion-based joint modeling of proteins, nucleic acids, ligands, and ions, transforming computational biology by predicting all molecule-of-life interactions.",
+      "source_ids": [
+        "source-google-2024-alphafold3"
+      ],
+      "concept_ids": [
+        "concept-deep-learning"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-gpt4o-realtime-multimodal-2024",
+      "title": "OpenAI Announces GPT-4o (Omni Real-Time Multimodal Interaction)",
+      "date_start": "2024-05-13",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "End-to-end trained omni model processing native audio, vision, and text simultaneously with human-like 232ms voice latency, establishing real-time multimodal assistants.",
+      "source_ids": [
+        "source-openai-2024-gpt4o"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-eu-ai-act-entry-into-force-2024",
+      "title": "European Union AI Act Enters Into Force (Comprehensive Global AI Regulation)",
+      "date_start": "2024-08-01",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Regulation (EU) 2024/1689 officially entered into force, establishing the world's first comprehensive risk-categorized legal framework for AI governance and general-purpose models.",
+      "source_ids": [
+        "source-eu-2024-ai-act"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-openai-o1-reasoning-2024",
+      "title": "OpenAI Releases o1 Reasoning Series (Test-Time Compute Scaling)",
+      "date_start": "2024-09-12",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Pioneered deliberate test-time compute scaling using reinforcement learning chain-of-thought, demonstrating competitive programming performance and PhD-level physics benchmark accuracy.",
+      "source_ids": [
+        "source-openai-2024-o1"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-deepseek-r1-release-2025",
+      "title": "DeepSeek Releases DeepSeek-R1 (Open-Weight Reasoning via Reinforcement Learning)",
+      "date_start": "2025-01-22",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Demonstrated frontier-tier reasoning capabilities using pure reinforcement learning without supervised warm-up (R1-Zero) and multi-head latent attention, releasing weights under open license.",
+      "source_ids": [
+        "source-deepseek-2025-r1"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-paris-ai-action-summit-2025",
+      "title": "Paris AI Action Summit Concludes with 60+ Nation Global Accord",
+      "date_start": "2025-02-11",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Global leaders and researchers adopted the Statement on Inclusive and Sustainable AI, establishing international cooperation benchmarks for computing access, safety standards, and public AI infrastructure.",
+      "source_ids": [
+        "source-paris-2025-ai-summit",
+        "source-international-ai-safety-report-2025"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-eu-ai-act-first-bans-active-2026",
+      "title": "EU AI Act General Prohibitions and GPAI Governance Standards Become Legally Enforceable",
+      "date_start": "2026-02-02",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "The European AI Office initiated legal enforcement of Article 5 prohibited practices and baseline governance codes of practice for systemic general-purpose AI providers across EU member states.",
+      "source_ids": [
+        "source-eu-2024-ai-act"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "metric-notable-ai-models-2023-stanford",
+      "metric_name": "notable_machine_learning_systems_annual_count",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 149.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Tracked by Epoch AI and Stanford HAI AI Index Chapter 1: Notable Systems. Excludes minor derivative repos.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-industry-vs-academia-industry-share-2023",
+      "metric_name": "industry_produced_notable_ai_systems_percentage",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 61.0,
+      "unit": "percent",
+      "category": "industry_trends",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Percentage of notable AI models produced by commercial industry vs academic institutions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-global-private-ai-investment-2023",
+      "metric_name": "global_private_ai_investment_usd_billions",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 95.99,
+      "unit": "USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Quid data reported by Stanford AI Index 2024 Chapter 4: Economy. Inflation unadjusted.",
+      "collection_method": "manual_download"
+    }
+  ]
+}

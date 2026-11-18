@@ -1,0 +1,197 @@
+{
+  "_meta": {
+    "schema_version": "0.1.0",
+    "entity_type": "concept_graph",
+    "exported_at": "2026-10-26T15:00:43Z",
+    "record_count": 1,
+    "notes": "Nodes and directed edges"
+  },
+  "data": [
+    {
+      "nodes": [
+        {
+          "id": "concept-turing-test",
+          "name": "Turing Test (Imitation Game)",
+          "category": "theory",
+          "summary": "Operational test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human.",
+          "introduced_date": "1950-10",
+          "introduced_date_precision": "month",
+          "source_ids": [
+            "source-turing-1950"
+          ]
+        },
+        {
+          "id": "concept-artificial-intelligence",
+          "name": "Artificial Intelligence",
+          "category": "paradigm",
+          "summary": "The field of computer science dedicated to creating systems capable of performing tasks requiring human intelligence.",
+          "introduced_date": "1955-08-31",
+          "introduced_date_precision": "day",
+          "source_ids": [
+            "source-mccarthy-1955-proposal"
+          ]
+        },
+        {
+          "id": "concept-perceptron",
+          "name": "Perceptron",
+          "category": "algorithm",
+          "summary": "Early artificial neuron algorithm for binary classification utilizing linear threshold units.",
+          "introduced_date": "1958",
+          "introduced_date_precision": "year",
+          "source_ids": [
+            "source-rosenblatt-1958"
+          ]
+        },
+        {
+          "id": "concept-backpropagation",
+          "name": "Backpropagation",
+          "category": "algorithm",
+          "summary": "Algorithm for efficiently computing gradient of loss function with respect to weights in multi-layer neural networks.",
+          "introduced_date": "1986-10-09",
+          "introduced_date_precision": "day",
+          "source_ids": [
+            "source-rumelhart-1986-backprop"
+          ]
+        },
+        {
+          "id": "concept-convolutional-neural-network",
+          "name": "Convolutional Neural Network (CNN)",
+          "category": "architecture",
+          "summary": "Feedforward neural architecture using convolution filters and spatial pooling, specialized for grid-like data such as images.",
+          "introduced_date": "1998-11",
+          "introduced_date_precision": "month",
+          "source_ids": [
+            "source-lecun-1998-lenet"
+          ]
+        },
+        {
+          "id": "concept-deep-learning",
+          "name": "Deep Learning",
+          "category": "paradigm",
+          "summary": "Class of machine learning algorithms that use multiple layers of representation to extract higher-level features from raw input.",
+          "introduced_date": "2012-12",
+          "introduced_date_precision": "month",
+          "source_ids": [
+            "source-krizhevsky-2012-alexnet"
+          ]
+        },
+        {
+          "id": "concept-self-attention",
+          "name": "Self-Attention Mechanism",
+          "category": "algorithm",
+          "summary": "Mechanism relating different positions of a single sequence to compute a contextual representation of the sequence.",
+          "introduced_date": "2017-06-12",
+          "introduced_date_precision": "day",
+          "source_ids": [
+            "source-vaswani-2017-attention"
+          ]
+        },
+        {
+          "id": "concept-transformer",
+          "name": "Transformer Architecture",
+          "category": "architecture",
+          "summary": "Sequence-to-sequence model relying entirely on self-attention without recurrence or convolutions.",
+          "introduced_date": "2017-06-12",
+          "introduced_date_precision": "day",
+          "source_ids": [
+            "source-vaswani-2017-attention"
+          ]
+        },
+        {
+          "id": "concept-bidirectional-transformers",
+          "name": "Bidirectional Masked Language Modeling",
+          "category": "methodology",
+          "summary": "Pre-training objective conditioning on both left and right context across all transformer layers simultaneously.",
+          "introduced_date": "2018-10-11",
+          "introduced_date_precision": "day",
+          "source_ids": [
+            "source-devlin-2018-bert"
+          ]
+        },
+        {
+          "id": "concept-autoregressive-llm",
+          "name": "Autoregressive Large Language Models",
+          "category": "architecture",
+          "summary": "Decoder-only generative transformer models scaled to billions of parameters demonstrating emergent in-context few-shot capabilities.",
+          "introduced_date": "2020-05-28",
+          "introduced_date_precision": "day",
+          "source_ids": [
+            "source-brown-2020-gpt3"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "rel-ai-introduces-perceptron",
+          "source_concept_id": "concept-artificial-intelligence",
+          "target_concept_id": "concept-perceptron",
+          "relationship_type": "introduced",
+          "evidence_source_ids": [
+            "source-rosenblatt-1958"
+          ],
+          "description": "Perceptron developed as foundational algorithmic attempt toward realizing the artificial intelligence agenda."
+        },
+        {
+          "id": "rel-perceptron-extended-by-backprop",
+          "source_concept_id": "concept-perceptron",
+          "target_concept_id": "concept-backpropagation",
+          "relationship_type": "influenced",
+          "evidence_source_ids": [
+            "source-rumelhart-1986-backprop"
+          ],
+          "description": "The representational limitations of single-layer perceptrons, demonstrated by Minsky and Papert, directly influenced the development of multi-layer learning algorithms, leading to the popularization of backpropagation by Rumelhart, Hinton, and Williams."
+        },
+        {
+          "id": "rel-backprop-used-by-cnn",
+          "source_concept_id": "concept-convolutional-neural-network",
+          "target_concept_id": "concept-backpropagation",
+          "relationship_type": "uses",
+          "evidence_source_ids": [
+            "source-lecun-1998-lenet"
+          ],
+          "description": "Convolutional neural networks (such as LeNet) use backpropagation and gradient-based learning to train shared spatial convolution kernels directly from input pixels."
+        },
+        {
+          "id": "rel-cnn-ignited-deep-learning",
+          "source_concept_id": "concept-convolutional-neural-network",
+          "target_concept_id": "concept-deep-learning",
+          "relationship_type": "influenced",
+          "evidence_source_ids": [
+            "source-krizhevsky-2012-alexnet"
+          ],
+          "description": "GPU-accelerated deep convolutional network (AlexNet) victory at ImageNet 2012 ignited modern deep learning renaissance."
+        },
+        {
+          "id": "rel-self-attention-introduced-in-transformer",
+          "source_concept_id": "concept-self-attention",
+          "target_concept_id": "concept-transformer",
+          "relationship_type": "introduced",
+          "evidence_source_ids": [
+            "source-vaswani-2017-attention"
+          ],
+          "description": "Transformer architecture was introduced by replacing recurrent computation entirely with multi-head self-attention."
+        },
+        {
+          "id": "rel-transformer-extended-by-bert",
+          "source_concept_id": "concept-bidirectional-transformers",
+          "target_concept_id": "concept-transformer",
+          "relationship_type": "extends",
+          "evidence_source_ids": [
+            "source-devlin-2018-bert"
+          ],
+          "description": "Bidirectional language models such as BERT extend the Transformer encoder architecture with masked language pre-training to learn context from both left and right directions simultaneously."
+        },
+        {
+          "id": "rel-transformer-successor-gpt",
+          "source_concept_id": "concept-autoregressive-llm",
+          "target_concept_id": "concept-transformer",
+          "relationship_type": "uses",
+          "evidence_source_ids": [
+            "source-brown-2020-gpt3"
+          ],
+          "description": "Autoregressive large language models (such as GPT-3) use the causal decoder variant of the Transformer architecture, scaled to massive parameter and token counts."
+        }
+      ]
+    }
+  ]
+}

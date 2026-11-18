@@ -1,0 +1,200 @@
+/* ═══════════════════════════════════════════════════════════════════
+   AI Evolution Map — Global Styles & Dark Theme
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ─── CSS Custom Properties — Obsidian & Gold Archive ─── */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* ── Backgrounds (Neutral Near-Black Obsidian) ── */
+  --bg-primary:   #080909;
+  --bg-surface:   #121313;
+  --bg-secondary: #121313;
+  --bg-tertiary:  #1B1C1B;
+  --bg-elevated:  #1B1C1B;
+  --bg-glass:     rgba(18, 19, 19, 0.92);
+
+  /* ── Typography (Warm Ivory & Metallic Neutrals) ── */
+  --text-primary:   #E8E2D5;
+  --text-secondary: #A6A197;
+  --text-muted:     #77736A;
+  --text-bright:    #F5EFE6;
+
+  /* ── Borders (Deep Burnished Bronze / Gold) ── */
+  --border-primary: #302B20;
+  --border-subtle:  rgba(48, 43, 32, 0.6);
+  --border-accent:  #655334;
+  --border-active:  #655334;
+
+  /* ── Obsidian & Gold Accent Palette ── */
+  --accent-gold:       #D6B875;   /* Champagne / Antique Instrument Gold — primary */
+  --accent-gold-muted: #A98C52;   /* Muted Horological Gold */
+  --accent-bronze:     #8F7044;   /* Deep Patina Bronze */
+  --accent-rust:       #925B49;   /* Archival Rust / Terra */
+  --accent-sage:       #718477;   /* Restrained Mineral Sage */
+
+  /* Legacy alias shims */
+  --accent-cyan:    #D6B875;
+  --accent-rose:    #925B49;
+  --accent-emerald: #718477;
+  --accent-teal:    #8F7044;
+
+  /* ── Orbital Rings ── */
+  --ring-orbit:       rgba(48, 43, 32, 0.55);
+  --ring-orbit-hover: rgba(101, 83, 52, 0.65);
+
+  /* ── Shadows (Restrained Architectural Obsidian) ── */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.75), 0 2px 4px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.85), 0 4px 10px rgba(0, 0, 0, 0.6);
+
+  /* ── Typography ── */
+  --font-serif: 'Newsreader', 'Georgia', 'Times New Roman', serif;
+  --font-sans:  'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono:  'JetBrains Mono', ui-monospace, 'Cascadia Code', Consolas, monospace;
+
+  /* ── Transitions ── */
+  --transition-fast:   150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow:   400ms ease;
+}
+
+/* ─── Reset ─── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.5;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* ─── Root Container ─── */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* ─── Selection ─── */
+::selection {
+  background: rgba(214, 184, 117, 0.28);
+  color: var(--text-bright);
+}
+
+/* ─── Scrollbar (WebKit) ─── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(169, 140, 82, 0.35);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(214, 184, 117, 0.65);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(169, 140, 82, 0.35) transparent;
+}
+
+/* ─── Links ─── */
+a {
+  color: var(--accent-gold);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: #F0CF8C;
+}
+
+/* ─── Range Inputs ─── */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(48, 43, 32, 0.6);
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+  border: 2px solid var(--bg-primary);
+  box-shadow: 0 0 6px rgba(214, 184, 117, 0.4);
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 12px rgba(214, 184, 117, 0.6);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+  border: 2px solid var(--bg-primary);
+  box-shadow: 0 0 6px rgba(214, 184, 117, 0.4);
+  cursor: pointer;
+}
+
+/* ─── Code ─── */
+code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  background: var(--bg-tertiary);
+  color: var(--accent-gold);
+}
+
+/* ─── Button Reset ─── */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+}

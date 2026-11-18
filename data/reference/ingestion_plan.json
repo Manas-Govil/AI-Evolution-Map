@@ -1,0 +1,31 @@
+{
+  "accessed_at": "2026-10-23",
+  "sources": {
+    "openalex": {
+      "description": "AI/ML works from OpenAlex, filtered by Machine Learning field (id:11)",
+      "year_range": [
+        2010,
+        2023
+      ],
+      "max_records": 100,
+      "purpose": "ResearchSource entities + annual publication MetricObservations"
+    },
+    "arxiv": {
+      "description": "Recent cs.AI preprints",
+      "query": "cat:cs.AI",
+      "max_results": 50,
+      "purpose": "ResearchSource entities for key AI papers"
+    },
+    "huggingface": {
+      "description": "Top text-generation models by downloads",
+      "filter": "pipeline_tag=text-generation",
+      "limit": 50,
+      "purpose": "Model ecosystem growth analysis"
+    },
+    "stanford_ai_index": {
+      "description": "Manual download of the AI publications CSV",
+      "url": "https://github.com/AI-Index/AI-Index-Report",
+      "purpose": "MetricObservation entities for macro trends"
+    }
+  }
+}

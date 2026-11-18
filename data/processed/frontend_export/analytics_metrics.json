@@ -1,0 +1,669 @@
+{
+  "_meta": {
+    "schema_version": "0.1.0",
+    "entity_type": "metric_observation",
+    "exported_at": "2026-10-26T15:00:43Z",
+    "record_count": 47,
+    "notes": "Quantitative metrics"
+  },
+  "data": [
+    {
+      "id": "metric-private-investment-2013-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2013",
+      "period_precision": "annual",
+      "value": 6.012,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2014-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2014",
+      "period_precision": "annual",
+      "value": 10.941,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2015-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2015",
+      "period_precision": "annual",
+      "value": 15.259,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2016-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2016",
+      "period_precision": "annual",
+      "value": 19.341,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2017-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2017",
+      "period_precision": "annual",
+      "value": 28.435,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2018-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2018",
+      "period_precision": "annual",
+      "value": 46.509,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2019-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2019",
+      "period_precision": "annual",
+      "value": 61.664,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2020-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2020",
+      "period_precision": "annual",
+      "value": 77.253,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2021-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2021",
+      "period_precision": "annual",
+      "value": 145.399,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2022-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2022",
+      "period_precision": "annual",
+      "value": 104.638,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-private-investment-2023-constant-2021-usd",
+      "metric_name": "global_private_ai_investment_annual_constant_2021_usd_billions",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 92.793,
+      "unit": "constant_2021_USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "NetBase Quid external funding for privately held AI companies raising >$1.5M. Excludes publicly traded companies and internal corporate R&D/CapEx. Reported in constant 2021 US$ billions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2013-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2013",
+      "period_precision": "annual",
+      "value": 19.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2013-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2013",
+      "period_precision": "annual",
+      "value": 7.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2013-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2013",
+      "period_precision": "annual",
+      "value": 10.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2014-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2014",
+      "period_precision": "annual",
+      "value": 33.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2014-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2014",
+      "period_precision": "annual",
+      "value": 5.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2014-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2014",
+      "period_precision": "annual",
+      "value": 21.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2015-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2015",
+      "period_precision": "annual",
+      "value": 29.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2015-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2015",
+      "period_precision": "annual",
+      "value": 13.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2015-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2015",
+      "period_precision": "annual",
+      "value": 9.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2016-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2016",
+      "period_precision": "annual",
+      "value": 49.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2016-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2016",
+      "period_precision": "annual",
+      "value": 21.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2016-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2016",
+      "period_precision": "annual",
+      "value": 18.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2017-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2017",
+      "period_precision": "annual",
+      "value": 55.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2017-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2017",
+      "period_precision": "annual",
+      "value": 26.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2017-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2017",
+      "period_precision": "annual",
+      "value": 18.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2018-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2018",
+      "period_precision": "annual",
+      "value": 37.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2018-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2018",
+      "period_precision": "annual",
+      "value": 23.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2018-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2018",
+      "period_precision": "annual",
+      "value": 4.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2019-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2019",
+      "period_precision": "annual",
+      "value": 68.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2019-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2019",
+      "period_precision": "annual",
+      "value": 30.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2019-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2019",
+      "period_precision": "annual",
+      "value": 12.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2020-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2020",
+      "period_precision": "annual",
+      "value": 50.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2020-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2020",
+      "period_precision": "annual",
+      "value": 25.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2020-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2020",
+      "period_precision": "annual",
+      "value": 9.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2021-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2021",
+      "period_precision": "annual",
+      "value": 79.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2021-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2021",
+      "period_precision": "annual",
+      "value": 46.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2021-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2021",
+      "period_precision": "annual",
+      "value": 9.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2022-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2022",
+      "period_precision": "annual",
+      "value": 91.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2022-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2022",
+      "period_precision": "annual",
+      "value": 50.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2022-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2022",
+      "period_precision": "annual",
+      "value": 17.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-total-2023-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_total",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 119.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable artificial intelligence systems tracked by Epoch AI and published in Stanford AI Index 2024 Chapter 1: Research and Development.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-industry-2023-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_industry",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 69.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in industry (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-systems-academia-2023-epoch-stanford",
+      "metric_name": "notable_ai_systems_annual_count_academia",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 18.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Annual count of notable AI systems with primary author affiliation in academia (Epoch AI / Stanford AI Index 2024 Chapter 1).",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-notable-ai-models-2023-stanford",
+      "metric_name": "notable_machine_learning_systems_annual_count",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 149.0,
+      "unit": "systems",
+      "category": "model_development",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Tracked by Epoch AI and Stanford HAI AI Index Chapter 1: Notable Systems. Excludes minor derivative repos.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-industry-vs-academia-industry-share-2023",
+      "metric_name": "industry_produced_notable_ai_systems_percentage",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 61.0,
+      "unit": "percent",
+      "category": "industry_trends",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Percentage of notable AI models produced by commercial industry vs academic institutions.",
+      "collection_method": "manual_download"
+    },
+    {
+      "id": "metric-global-private-ai-investment-2023",
+      "metric_name": "global_private_ai_investment_usd_billions",
+      "period": "2023",
+      "period_precision": "annual",
+      "value": 95.99,
+      "unit": "USD_billions",
+      "category": "investment",
+      "source_ids": [
+        "source-stanford-ai-index-2024"
+      ],
+      "methodology_note": "Quid data reported by Stanford AI Index 2024 Chapter 4: Economy. Inflation unadjusted.",
+      "collection_method": "manual_download"
+    }
+  ]
+}

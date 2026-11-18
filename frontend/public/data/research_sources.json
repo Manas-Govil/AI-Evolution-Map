@@ -1,0 +1,350 @@
+{
+  "_meta": {
+    "schema_version": "0.1.0",
+    "entity_type": "research_source",
+    "exported_at": "2026-10-26T13:55:43Z",
+    "record_count": 22,
+    "notes": "Bibliographic citations"
+  },
+  "data": [
+    {
+      "id": "source-turing-1950",
+      "title": "Computing Machinery and Intelligence",
+      "authors": [
+        "A. M. Turing"
+      ],
+      "publication_date": "1950-10",
+      "date_precision": "month",
+      "publisher": "Mind (Oxford University Press)",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1093/mind/LIX.236.433",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-mccarthy-1955-proposal",
+      "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+      "authors": [
+        "J. McCarthy",
+        "M. L. Minsky",
+        "N. Rochester",
+        "C. E. Shannon"
+      ],
+      "publication_date": "1955-08-31",
+      "date_precision": "day",
+      "publisher": "Dartmouth College",
+      "source_type": "original_research",
+      "url": "http://raysolomonoff.com/dartmouth/box/dart564src.pdf",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-rosenblatt-1958",
+      "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+      "authors": [
+        "Frank Rosenblatt"
+      ],
+      "publication_date": "1958",
+      "date_precision": "year",
+      "publisher": "Psychological Review",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1037/h0042519",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-rumelhart-1986-backprop",
+      "title": "Learning representations by back-propagating errors",
+      "authors": [
+        "David E. Rumelhart",
+        "Geoffrey E. Hinton",
+        "Ronald J. Williams"
+      ],
+      "publication_date": "1986-10-09",
+      "date_precision": "day",
+      "publisher": "Nature",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1038/323533a0",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-lecun-1998-lenet",
+      "title": "Gradient-based learning applied to document recognition",
+      "authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio",
+        "Patrick Haffner"
+      ],
+      "publication_date": "1998-11",
+      "date_precision": "month",
+      "publisher": "Proceedings of the IEEE",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1109/5.726791",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-krizhevsky-2012-alexnet",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "authors": [
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Geoffrey E. Hinton"
+      ],
+      "publication_date": "2012-12",
+      "date_precision": "month",
+      "publisher": "NeurIPS",
+      "source_type": "original_research",
+      "url": "https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-vaswani-2017-attention",
+      "title": "Attention Is All You Need",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "publication_date": "2017-06-12",
+      "date_precision": "day",
+      "publisher": "NeurIPS / arXiv",
+      "source_type": "preprint",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-devlin-2018-bert",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "authors": [
+        "Jacob Devlin",
+        "Ming-Wei Chang",
+        "Kenton Lee",
+        "Kristina Toutanova"
+      ],
+      "publication_date": "2018-10-11",
+      "date_precision": "day",
+      "publisher": "NAACL / arXiv",
+      "source_type": "preprint",
+      "url": "https://arxiv.org/abs/1810.04805",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-brown-2020-gpt3",
+      "title": "Language Models are Few-Shot Learners",
+      "authors": [
+        "Tom B. Brown",
+        "Benjamin Mann",
+        "Nick Ryder",
+        "Melanie Subbiah",
+        "Jared Kaplan",
+        "Prafulla Dhariwal",
+        "Arvind Neelakantan",
+        "Pranav Shyam"
+      ],
+      "publication_date": "2020-05-28",
+      "date_precision": "day",
+      "publisher": "NeurIPS / arXiv",
+      "source_type": "preprint",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-stanford-ai-index-2024",
+      "title": "Artificial Intelligence Index Report 2024",
+      "authors": [
+        "Nestor Maslej",
+        "Loredana Fattorini",
+        "Raymond Perrault",
+        "Vanessa Parli",
+        "Anka Reuel",
+        "Erik Brynjolfsson"
+      ],
+      "publication_date": "2024-04",
+      "date_precision": "month",
+      "publisher": "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+      "source_type": "institutional_report",
+      "url": "https://aiindex.stanford.edu/report/",
+      "accessed_at": "2024-10-24T04:30:00Z"
+    },
+    {
+      "id": "source-rombach-2022-latent-diffusion",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "authors": [
+        "Robin Rombach",
+        "Andreas Blattmann",
+        "Dominik Lorenz",
+        "Patrick Esser",
+        "Bjorn Ommer"
+      ],
+      "publication_date": "2021-12-20",
+      "date_precision": "day",
+      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2022)",
+      "source_type": "original_research",
+      "url": "https://arxiv.org/abs/2112.10752",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-openai-2022-chatgpt",
+      "title": "Introducing ChatGPT: Optimizing Language Models for Dialogue",
+      "authors": [
+        "OpenAI"
+      ],
+      "publication_date": "2022-11-30",
+      "date_precision": "day",
+      "publisher": "OpenAI Technical Blog",
+      "source_type": "official_documentation",
+      "url": "https://openai.com/index/chatgpt/",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-openai-2023-gpt4",
+      "title": "GPT-4 Technical Report",
+      "authors": [
+        "OpenAI"
+      ],
+      "publication_date": "2023-03-15",
+      "date_precision": "day",
+      "publisher": "arXiv / OpenAI",
+      "source_type": "original_research",
+      "url": "https://arxiv.org/abs/2303.08774",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-meta-2023-llama2",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "authors": [
+        "Hugo Touvron",
+        "Louis Martin",
+        "Kevin Stone",
+        "Peter Albert",
+        "Meta AI"
+      ],
+      "publication_date": "2023-07-18",
+      "date_precision": "day",
+      "publisher": "arXiv / Meta AI",
+      "source_type": "original_research",
+      "url": "https://arxiv.org/abs/2307.09288",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-iso-2023-42001",
+      "title": "ISO/IEC 42001:2023 - Artificial Intelligence Management System",
+      "authors": [
+        "International Organization for Standardization",
+        "International Electrotechnical Commission"
+      ],
+      "publication_date": "2023-12-18",
+      "date_precision": "day",
+      "publisher": "ISO/IEC",
+      "source_type": "institutional_report",
+      "url": "https://www.iso.org/standard/81230.html",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-google-2024-alphafold3",
+      "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "authors": [
+        "Josh Abramson",
+        "Jonas Adler",
+        "Jack Dunger",
+        "John Jumper",
+        "Demis Hassabis"
+      ],
+      "publication_date": "2024-05-08",
+      "date_precision": "day",
+      "publisher": "Nature 630, 493-500",
+      "source_type": "original_research",
+      "url": "https://doi.org/10.1038/s41586-024-07487-w",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-openai-2024-gpt4o",
+      "title": "Hello GPT-4o: Omni Multimodal Model Across Audio, Vision, and Text",
+      "authors": [
+        "OpenAI"
+      ],
+      "publication_date": "2024-05-13",
+      "date_precision": "day",
+      "publisher": "OpenAI Announcements",
+      "source_type": "official_documentation",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-eu-2024-ai-act",
+      "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+      "authors": [
+        "European Parliament",
+        "Council of the European Union"
+      ],
+      "publication_date": "2024-07-12",
+      "date_precision": "day",
+      "publisher": "Official Journal of the European Union",
+      "source_type": "institutional_report",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-openai-2024-o1",
+      "title": "Learning to Reason with LLMs: Introducing OpenAI o1 Preview",
+      "authors": [
+        "OpenAI"
+      ],
+      "publication_date": "2024-09-12",
+      "date_precision": "day",
+      "publisher": "OpenAI Research",
+      "source_type": "official_documentation",
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-deepseek-2025-r1",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "authors": [
+        "DeepSeek-AI",
+        "Daya Guo",
+        "Dejian Yang",
+        "Haowei Zhang",
+        "Chaoqing Jia"
+      ],
+      "publication_date": "2025-01-22",
+      "date_precision": "day",
+      "publisher": "arXiv:2501.12948",
+      "source_type": "original_research",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-paris-2025-ai-summit",
+      "title": "Statement on Inclusive and Sustainable Artificial Intelligence for People and the Planet",
+      "authors": [
+        "Paris AI Action Summit Co-Chairs",
+        "Government of France",
+        "Government of India"
+      ],
+      "publication_date": "2025-02-11",
+      "date_precision": "day",
+      "publisher": "AI Action Summit Paris",
+      "source_type": "institutional_report",
+      "url": "https://www.elysee.fr/en/",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "source-international-ai-safety-report-2025",
+      "title": "International Scientific Report on the Safety of Advanced AI",
+      "authors": [
+        "Yoshua Bengio",
+        "International AI Safety Expert Panel"
+      ],
+      "publication_date": "2025-01-29",
+      "date_precision": "day",
+      "publisher": "UK Department for Science, Innovation and Technology",
+      "source_type": "institutional_report",
+      "url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+      "accessed_at": "2026-10-26T12:00:00Z"
+    }
+  ]
+}

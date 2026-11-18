@@ -1,0 +1,322 @@
+{
+  "_meta": {
+    "schema_version": "0.1.0",
+    "entity_type": "milestone",
+    "exported_at": "2026-10-26T15:00:43Z",
+    "record_count": 20,
+    "notes": "Chronological milestone events"
+  },
+  "data": [
+    {
+      "id": "milestone-turing-test-1950",
+      "title": "Publication of Computing Machinery and Intelligence (Turing Test)",
+      "date_start": "1950-10",
+      "date_precision": "month",
+      "era": "foundations",
+      "description": "Alan Turing proposed the Imitation Game as an operational benchmark for machine intelligence, analyzing philosophical objections and machine learning foundations.",
+      "source_ids": [
+        "source-turing-1950"
+      ],
+      "concept_ids": [
+        "concept-turing-test"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-dartmouth-workshop-1956",
+      "title": "Dartmouth Summer Research Project on Artificial Intelligence",
+      "date_start": "1956",
+      "date_precision": "year",
+      "era": "birth",
+      "description": "Conceived by McCarthy, Minsky, Rochester, and Shannon, this workshop coined the term 'Artificial Intelligence' and established AI as an autonomous discipline.",
+      "source_ids": [
+        "source-mccarthy-1955-proposal"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-backpropagation-rediscovery-1986",
+      "title": "Popularization of Multi-Layer Backpropagation by Rumelhart, Hinton, and Williams",
+      "date_start": "1986-10-09",
+      "date_precision": "day",
+      "era": "expert_systems",
+      "description": "Demonstrated that backpropagation can discover useful internal representations in hidden layers of neural networks, reviving connectionism.",
+      "source_ids": [
+        "source-rumelhart-1986-backprop"
+      ],
+      "concept_ids": [
+        "concept-backpropagation"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-lenet-5-1998",
+      "title": "Release of LeNet-5 for Document Recognition",
+      "date_start": "1998-11",
+      "date_precision": "month",
+      "era": "revival",
+      "description": "Yann LeCun and colleagues demonstrated practical commercial application of gradient-trained convolutional networks on postal check digits.",
+      "source_ids": [
+        "source-lecun-1998-lenet"
+      ],
+      "concept_ids": [
+        "concept-convolutional-neural-network"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-alexnet-imagenet-2012",
+      "title": "AlexNet Dominates ImageNet Competition",
+      "date_start": "2012-12",
+      "date_precision": "month",
+      "era": "deep_learning",
+      "description": "AlexNet won the ImageNet Large Scale Visual Recognition Challenge with top-5 error rate of 15.3%, dropping previous error by over 10 percentage points.",
+      "source_ids": [
+        "source-krizhevsky-2012-alexnet"
+      ],
+      "concept_ids": [
+        "concept-deep-learning",
+        "concept-convolutional-neural-network"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-transformer-attention-2017",
+      "title": "Publication of Attention Is All You Need (Transformer)",
+      "date_start": "2017-06-12",
+      "date_precision": "day",
+      "era": "transformer_era",
+      "description": "Google researchers introduced the Transformer model, replacing recurrent networks with multi-head self-attention and unlocking massive sequence parallelization.",
+      "source_ids": [
+        "source-vaswani-2017-attention"
+      ],
+      "concept_ids": [
+        "concept-transformer",
+        "concept-self-attention"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-bert-release-2018",
+      "title": "Google Releases BERT",
+      "date_start": "2018-10-11",
+      "date_precision": "day",
+      "era": "transformer_era",
+      "description": "Introduced bidirectional pre-training for Transformers, establishing new state-of-the-art results across 11 NLP tasks simultaneously.",
+      "source_ids": [
+        "source-devlin-2018-bert"
+      ],
+      "concept_ids": [
+        "concept-bidirectional-transformers",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-gpt3-release-2020",
+      "title": "OpenAI Releases GPT-3 (Few-Shot Learners)",
+      "date_start": "2020-05-28",
+      "date_precision": "day",
+      "era": "transformer_era",
+      "description": "Demonstrated that scaling autoregressive transformers to 175B parameters enables strong task performance without fine-tuning, via prompt-based in-context learning.",
+      "source_ids": [
+        "source-brown-2020-gpt3"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-latent-diffusion-2021",
+      "title": "Publication of Latent Diffusion Models (Foundation for Stable Diffusion)",
+      "date_start": "2021-12-20",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Robin Rombach and collaborators introduced latent diffusion models, moving diffusion training to compressed latent spaces and unlocking scalable high-resolution generative image synthesis.",
+      "source_ids": [
+        "source-rombach-2022-latent-diffusion"
+      ],
+      "concept_ids": [
+        "concept-deep-learning"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-chatgpt-release-2022",
+      "title": "OpenAI Releases ChatGPT (Democratization of Conversational AI)",
+      "date_start": "2022-11-30",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "OpenAI launched ChatGPT based on GPT-3.5 with reinforcement learning from human feedback (RLHF), reaching 100M monthly active users within two months and initiating widespread public adoption.",
+      "source_ids": [
+        "source-openai-2022-chatgpt"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-gpt4-multimodal-2023",
+      "title": "OpenAI Launches GPT-4 (Multimodal Foundation Model Benchmark)",
+      "date_start": "2023-03-14",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Demonstrated human-level performance on standardized benchmarks including top-10th percentile bar exam scoring, introducing visual understanding and enhanced reliability.",
+      "source_ids": [
+        "source-openai-2023-gpt4"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-llama2-open-weights-2023",
+      "title": "Meta Releases Llama 2 (Open-Weight Foundation Model Ecosystem)",
+      "date_start": "2023-07-18",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Meta released Llama 2 with permissive commercial licensing for research and commercial deployment, catalyzing global open-source model adaptation and on-device optimization.",
+      "source_ids": [
+        "source-meta-2023-llama2"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-iso-42001-standard-2023",
+      "title": "Publication of ISO/IEC 42001 (First Global Standard for AI Management Systems)",
+      "date_start": "2023-12-18",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "The International Organization for Standardization published ISO/IEC 42001, defining international certifiable governance standards for responsible and accountable enterprise AI systems.",
+      "source_ids": [
+        "source-iso-2023-42001"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-alphafold-3-2024",
+      "title": "Google DeepMind & Isomorphic Labs Unveil AlphaFold 3 in Nature",
+      "date_start": "2024-05-08",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Introduced diffusion-based joint modeling of proteins, nucleic acids, ligands, and ions, transforming computational biology by predicting all molecule-of-life interactions.",
+      "source_ids": [
+        "source-google-2024-alphafold3"
+      ],
+      "concept_ids": [
+        "concept-deep-learning"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-gpt4o-realtime-multimodal-2024",
+      "title": "OpenAI Announces GPT-4o (Omni Real-Time Multimodal Interaction)",
+      "date_start": "2024-05-13",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "End-to-end trained omni model processing native audio, vision, and text simultaneously with human-like 232ms voice latency, establishing real-time multimodal assistants.",
+      "source_ids": [
+        "source-openai-2024-gpt4o"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-eu-ai-act-entry-into-force-2024",
+      "title": "European Union AI Act Enters Into Force (Comprehensive Global AI Regulation)",
+      "date_start": "2024-08-01",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Regulation (EU) 2024/1689 officially entered into force, establishing the world's first comprehensive risk-categorized legal framework for AI governance and general-purpose models.",
+      "source_ids": [
+        "source-eu-2024-ai-act"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-openai-o1-reasoning-2024",
+      "title": "OpenAI Releases o1 Reasoning Series (Test-Time Compute Scaling)",
+      "date_start": "2024-09-12",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Pioneered deliberate test-time compute scaling using reinforcement learning chain-of-thought, demonstrating competitive programming performance and PhD-level physics benchmark accuracy.",
+      "source_ids": [
+        "source-openai-2024-o1"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-deepseek-r1-release-2025",
+      "title": "DeepSeek Releases DeepSeek-R1 (Open-Weight Reasoning via Reinforcement Learning)",
+      "date_start": "2025-01-22",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Demonstrated frontier-tier reasoning capabilities using pure reinforcement learning without supervised warm-up (R1-Zero) and multi-head latent attention, releasing weights under open license.",
+      "source_ids": [
+        "source-deepseek-2025-r1"
+      ],
+      "concept_ids": [
+        "concept-autoregressive-llm",
+        "concept-transformer"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-paris-ai-action-summit-2025",
+      "title": "Paris AI Action Summit Concludes with 60+ Nation Global Accord",
+      "date_start": "2025-02-11",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "Global leaders and researchers adopted the Statement on Inclusive and Sustainable AI, establishing international cooperation benchmarks for computing access, safety standards, and public AI infrastructure.",
+      "source_ids": [
+        "source-paris-2025-ai-summit",
+        "source-international-ai-safety-report-2025"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milestone-eu-ai-act-first-bans-active-2026",
+      "title": "EU AI Act General Prohibitions and GPAI Governance Standards Become Legally Enforceable",
+      "date_start": "2026-02-02",
+      "date_precision": "day",
+      "era": "generative_ai",
+      "description": "The European AI Office initiated legal enforcement of Article 5 prohibited practices and baseline governance codes of practice for systemic general-purpose AI providers across EU member states.",
+      "source_ids": [
+        "source-eu-2024-ai-act"
+      ],
+      "concept_ids": [
+        "concept-artificial-intelligence"
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

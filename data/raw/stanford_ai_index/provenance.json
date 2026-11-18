@@ -1,0 +1,17 @@
+{
+  "source_name": "stanford_ai_index",
+  "source_url": "https://aiindex.stanford.edu/report/",
+  "retrieved_at": "2026-10-23T23:53:40Z",
+  "query_params": {
+    "investment_url": "https://ourworldindata.org/grapher/private-investment-in-artificial-intelligence.csv?v=1&csvType=full&useColumnShortNames=false",
+    "affiliation_url": "https://ourworldindata.org/grapher/affiliation-researchers-building-artificial-intelligence-systems-all.csv?v=1&csvType=full&useColumnShortNames=false",
+    "source_chapters": [
+      "Chapter 1: Research & Development (Epoch AI)",
+      "Chapter 4: Economy (NetBase Quid)"
+    ],
+    "license": "CC-BY via Our World in Data / Stanford HAI academic fair use with mandatory citation"
+  },
+  "collection_method": "api_file_download",
+  "record_count": null,
+  "notes": "Downloaded official raw CSV indicators for 2013-2023 historical multi-year tracking."
+}
